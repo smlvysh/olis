@@ -1,0 +1,41 @@
+@use"./extend" as *;
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;800;900&display=swap);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+a{
+font-family: "Gotham Pro", sans-serif;
+font-weight: 400;
+font-size: 14px;
+color: #000;
+text-decoration: none;
+
+}
+ul, ol{
+    list-style: none;
+}
+.container{
+    width: 90%;
+    // max-width: 1200px;
+    margin: 0 auto;
+}
+img{
+    max-width: 100%;
+    height: auto;
+
+}
+.paragraph{
+    font-family: "Gotham Pro", sans-serif;
+font-weight: 500;
+font-size: 18px;
+line-height: 1.377;
+color: #000;
+}
+
+#bars{
+    display: none;
+}
+

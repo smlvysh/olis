@@ -1,0 +1,128 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;800;900&display=swap);
+.flex, .header > div, .header .header_center ul li, .header .header_center_top ul, .header .header_center_top, .header .header_center_bottom ul, .header .header_center_bottom ul .header_right, .header_right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+a {
+  font-family: "Gotham Pro", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #000;
+  text-decoration: none;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.paragraph {
+  font-family: "Gotham Pro", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.377;
+  color: #000;
+}
+
+#bars {
+  display: none;
+}
+
+.header {
+  padding: 30px 0;
+}
+.header > div {
+  justify-content: space-between;
+  gap: 20px;
+}
+.header .header_center {
+  padding: 0 30px;
+}
+.header .header_center ul li {
+  gap: 5px;
+}
+.header .header_center_top {
+  padding: 20px 0;
+  flex-direction: column;
+}
+.header .header_center_top ul {
+  gap: 20px;
+}
+.header .header_center_bottom {
+  padding: 20px 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+.header .header_center_bottom ul li {
+  width: 185px;
+}
+.header_right {
+  gap: 30px;
+}
+.header_right select {
+  width: 67px;
+  height: 50px;
+  box-shadow: 0 7px 50px 0 rgba(0, 0, 0, 0.15);
+  background: #fff;
+  border: none;
+  font-weight: 900;
+  font-size: 16px;
+  color: #000;
+}
+.header_right .header_right_phone {
+  width: 210px;
+  height: 40px;
+}
+.header_right .header_right_phone p {
+  font-weight: 300;
+  font-size: 16px;
+  color: #000;
+}
+.header_right .header_right_phone .header_right_phone_bottom a {
+  font-weight: 900;
+  font-size: 16px;
+  color: #000;
+}
+
+@media (max-width: 1445px) {
+  #bars {
+    display: block;
+  }
+  .header_center ul {
+    flex-direction: column;
+  }
+}
+@media (max-width: 960px) {
+  .header_center {
+    display: none;
+  }
+  .header_right_phone {
+    display: none;
+  }
+  #bars {
+    display: block;
+  }
+  .header_left img {
+    width: 99px;
+    height: 43px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
