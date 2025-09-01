@@ -1,0 +1,35 @@
+@use"./extend" as *;
+.section4{
+    .title{
+        padding: 30px 0;
+        text-align: center
+    }
+    .rates{
+        @extend .flex;
+        gap: 100px;
+    }
+}
+@media(max-width:1212px){
+    .section4 .rates{
+        overflow-x: scroll;
+    }
+}
+
+@media(max-width:640px){
+  .section4 .title{
+    font-size: 24px;
+  }
+  .section4 .title .bold{
+    font-size: 24px;
+  }
+}
+
+@media (max-width:445px){
+
+  .section4 .title{
+    font-size: 18px;
+  }
+   .section4 .title .bold{
+    font-size: 18px;
+  }
+}
