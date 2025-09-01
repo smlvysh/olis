@@ -1,0 +1,132 @@
+@use "./extend" as *;
+.section1 {
+
+  margin: 50px 0;
+  h1{
+    padding: 30px 0;
+  }
+  .boxes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  }
+  .box1 {
+    background: url(../../img/box1_back.svg);
+    background-repeat: no-repeat;
+   
+    .box_items{
+      margin-top: 30px;
+    }
+    p{
+      width: 250px;
+    }
+  }
+  .box2 {
+p{
+  width: 280px;
+}
+    background: url(../../img/box2_back.svg);
+    background-repeat: no-repeat;
+    .box_items{
+      margin-top: 15px;
+    }
+    
+  }
+  .box3 {
+    
+    background: url(../../img/box3_back.svg);
+    background-repeat: no-repeat;
+    
+  }
+  .box4 {
+    
+    background: url(../../img/box4_back.svg);
+    background-repeat: no-repeat;
+    p{
+      width: 250px;
+    }
+    .box_items{
+      margin-top: 30px;
+    }
+  }
+  .box5 {
+   .box_items{
+    margin-top:25px;
+   }
+    background: url(../../img/box5_back.svg);
+    background-repeat: no-repeat;
+  }
+  .box6 {
+   .box_items{
+    margin-top:15px;
+   }
+    background: url(../../img/box6_back.svg);
+    background-repeat: no-repeat;
+  }
+.box_items{
+  @extend .flex;
+  .box_left{
+    @extend .flex;
+    background-color: #fff;
+    width: 382px;
+height: 111px;
+p{
+      font-weight: 500;
+    font-size: 18px;
+      line-height: 1.377;
+      color: #000;
+}
+
+  }
+}
+@media(max-width:1270px){
+  .section1 .boxes{
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media(max-width:860px){
+.section1 .boxes>div{
+  width: 135px;
+height: 224px;
+}
+.box_items .box_left{
+width: 135px;
+height: 100px;
+text-align: center;
+flex-direction: column;
+}
+.box_items .box_left p{
+  font-size: 12px;
+  text-align: center;
+}
+.box_right{
+  width: 90px;
+height: 90px;
+}
+.box_items{
+  flex-direction: column;
+  align-items: center;
+  
+}}
+@media(max-width:640px){
+  .section1 h1{
+    font-size: 24px;
+  }
+  .section1 h1 .bold{
+    font-size: 24px;
+  }
+}
+@media (max-width:445px){
+  .section1 .boxes{
+    grid-template-columns: 1fr;
+}
+  .section1 h1{
+    font-size: 18px;
+  }
+   .section1 h1 .bold{
+    font-size: 18px;
+  }
+}

@@ -1,164 +1,433 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-<body>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
     <header class="header">
-        <div class="container">
-            <div class="header_left">
-        
-                <img src="./img/logo.svg" alt="">
-            </div>
-            <div class="header_center">
-             
-                <div class="header_center_top">
-                    <ul>
-                        <li><a href="#">О компании</a><svg width="11" height="10" viewBox="0 0 11 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <g clip-path="url(#clip0_518_1553)">
-    <path d="M5.77441 7.58753L10.3869 2.96224C10.538 2.8107 10.5377 2.56535 10.3861 2.41406C10.2346 2.26289 9.98911 2.26328 9.83795 2.41484L5.49998 6.76482L1.16203 2.41468C1.01086 2.26314 0.765529 2.26275 0.613967 2.4139C0.537991 2.48974 0.500002 2.5891 0.500002 2.68845C0.500002 2.78755 0.537737 2.88652 0.613186 2.96222L5.22557 7.58753C5.29819 7.66052 5.39701 7.70148 5.49998 7.70148C5.60295 7.70148 5.70166 7.6604 5.77441 7.58753Z" fill="black" />
-  </g>
-  <defs>
-    <clipPath id="clip0_518_1553">
-      <rect width="10" height="10" fill="white" transform="translate(10.5) rotate(90)" />
-    </clipPath>
-  </defs>
-</svg></li>
-<li><a href="#">Обьекты</a><svg width="11" height="10" viewBox="0 0 11 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <g clip-path="url(#clip0_518_1553)">
-    <path d="M5.77441 7.58753L10.3869 2.96224C10.538 2.8107 10.5377 2.56535 10.3861 2.41406C10.2346 2.26289 9.98911 2.26328 9.83795 2.41484L5.49998 6.76482L1.16203 2.41468C1.01086 2.26314 0.765529 2.26275 0.613967 2.4139C0.537991 2.48974 0.500002 2.5891 0.500002 2.68845C0.500002 2.78755 0.537737 2.88652 0.613186 2.96222L5.22557 7.58753C5.29819 7.66052 5.39701 7.70148 5.49998 7.70148C5.60295 7.70148 5.70166 7.6604 5.77441 7.58753Z" fill="black" />
-  </g>
-  <defs>
-    <clipPath id="clip0_518_1553">
-      <rect width="10" height="10" fill="white" transform="translate(10.5) rotate(90)" />
-    </clipPath>
-  </defs>
-</svg></li>
-<li><a href="#">Пресс-центр</a><svg width="11" height="10" viewBox="0 0 11 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <g clip-path="url(#clip0_518_1553)">
-    <path d="M5.77441 7.58753L10.3869 2.96224C10.538 2.8107 10.5377 2.56535 10.3861 2.41406C10.2346 2.26289 9.98911 2.26328 9.83795 2.41484L5.49998 6.76482L1.16203 2.41468C1.01086 2.26314 0.765529 2.26275 0.613967 2.4139C0.537991 2.48974 0.500002 2.5891 0.500002 2.68845C0.500002 2.78755 0.537737 2.88652 0.613186 2.96222L5.22557 7.58753C5.29819 7.66052 5.39701 7.70148 5.49998 7.70148C5.60295 7.70148 5.70166 7.6604 5.77441 7.58753Z" fill="black" />
-  </g>
-  <defs>
-    <clipPath id="clip0_518_1553">
-      <rect width="10" height="10" fill="white" transform="translate(10.5) rotate(90)" />
-    </clipPath>
-  </defs>
-</svg></li>
-<li><a href="#">Видео</a><svg width="11" height="10" viewBox="0 0 11 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <g clip-path="url(#clip0_518_1553)">
-    <path d="M5.77441 7.58753L10.3869 2.96224C10.538 2.8107 10.5377 2.56535 10.3861 2.41406C10.2346 2.26289 9.98911 2.26328 9.83795 2.41484L5.49998 6.76482L1.16203 2.41468C1.01086 2.26314 0.765529 2.26275 0.613967 2.4139C0.537991 2.48974 0.500002 2.5891 0.500002 2.68845C0.500002 2.78755 0.537737 2.88652 0.613186 2.96222L5.22557 7.58753C5.29819 7.66052 5.39701 7.70148 5.49998 7.70148C5.60295 7.70148 5.70166 7.6604 5.77441 7.58753Z" fill="black" />
-  </g>
-  <defs>
-    <clipPath id="clip0_518_1553">
-      <rect width="10" height="10" fill="white" transform="translate(10.5) rotate(90)" />
-    </clipPath>
-  </defs>
-</svg></li>
-<li><a href="tel">Контакты</a><svg width="11" height="10" viewBox="0 0 11 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <g clip-path="url(#clip0_518_1553)">
-    <path d="M5.77441 7.58753L10.3869 2.96224C10.538 2.8107 10.5377 2.56535 10.3861 2.41406C10.2346 2.26289 9.98911 2.26328 9.83795 2.41484L5.49998 6.76482L1.16203 2.41468C1.01086 2.26314 0.765529 2.26275 0.613967 2.4139C0.537991 2.48974 0.500002 2.5891 0.500002 2.68845C0.500002 2.78755 0.537737 2.88652 0.613186 2.96222L5.22557 7.58753C5.29819 7.66052 5.39701 7.70148 5.49998 7.70148C5.60295 7.70148 5.70166 7.6604 5.77441 7.58753Z" fill="black" />
-  </g>
-  <defs>
-    <clipPath id="clip0_518_1553">
-      <rect width="10" height="10" fill="white" transform="translate(10.5) rotate(90)" />
-    </clipPath>
-  </defs>
-</svg></li>
-
-                    </ul>
-                </div>
-                <div class="header_center_bottom">
-                    <ul>
-<li><a href="#">Комплексные решения</a><svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <path d="M5.27441 5.58753L9.88692 0.962239C10.038 0.810697 10.0377 0.565346 9.88614 0.414058C9.73459 0.262886 9.48911 0.263277 9.33795 0.414839L4.99998 4.76482L0.662031 0.414682C0.51086 0.26314 0.265529 0.262749 0.113967 0.413901C0.0379906 0.48974 1.89475e-06 0.589096 1.8904e-06 0.688451C1.88607e-06 0.787552 0.0377369 0.886516 0.113186 0.962219L4.72557 5.58753C4.79819 5.66052 4.89701 5.70148 4.99998 5.70148C5.10295 5.70148 5.20166 5.6604 5.27441 5.58753Z" fill="black" />
-</svg></li>
-<li><a href="#">Наше оборудование</a><svg width="11" height="10" viewBox="0 0 11 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <g clip-path="url(#clip0_518_1553)">
-    <path d="M5.77441 7.58753L10.3869 2.96224C10.538 2.8107 10.5377 2.56535 10.3861 2.41406C10.2346 2.26289 9.98911 2.26328 9.83795 2.41484L5.49998 6.76482L1.16203 2.41468C1.01086 2.26314 0.765529 2.26275 0.613967 2.4139C0.537991 2.48974 0.500002 2.5891 0.500002 2.68845C0.500002 2.78755 0.537737 2.88652 0.613186 2.96222L5.22557 7.58753C5.29819 7.66052 5.39701 7.70148 5.49998 7.70148C5.60295 7.70148 5.70166 7.6604 5.77441 7.58753Z" fill="black" />
-  </g>
-  <defs>
-    <clipPath id="clip0_518_1553">
-      <rect width="10" height="10" fill="white" transform="translate(10.5) rotate(90)" />
-    </clipPath>
-  </defs>
-</svg></li>
-<li><a href="#">Оснащение лабораторий</a><svg width="11" height="10" viewBox="0 0 11 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <g clip-path="url(#clip0_518_1553)">
-    <path d="M5.77441 7.58753L10.3869 2.96224C10.538 2.8107 10.5377 2.56535 10.3861 2.41406C10.2346 2.26289 9.98911 2.26328 9.83795 2.41484L5.49998 6.76482L1.16203 2.41468C1.01086 2.26314 0.765529 2.26275 0.613967 2.4139C0.537991 2.48974 0.500002 2.5891 0.500002 2.68845C0.500002 2.78755 0.537737 2.88652 0.613186 2.96222L5.22557 7.58753C5.29819 7.66052 5.39701 7.70148 5.49998 7.70148C5.60295 7.70148 5.70166 7.6604 5.77441 7.58753Z" fill="black" />
-  </g>
-  <defs>
-    <clipPath id="clip0_518_1553">
-      <rect width="10" height="10" fill="white" transform="translate(10.5) rotate(90)" />
-    </clipPath>
-  </defs>
-</svg></li>
-<li><a href="#">Услуги компании</a><svg width="11" height="10" viewBox="0 0 11 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <g clip-path="url(#clip0_518_1553)">
-    <path d="M5.77441 7.58753L10.3869 2.96224C10.538 2.8107 10.5377 2.56535 10.3861 2.41406C10.2346 2.26289 9.98911 2.26328 9.83795 2.41484L5.49998 6.76482L1.16203 2.41468C1.01086 2.26314 0.765529 2.26275 0.613967 2.4139C0.537991 2.48974 0.500002 2.5891 0.500002 2.68845C0.500002 2.78755 0.537737 2.88652 0.613186 2.96222L5.22557 7.58753C5.29819 7.66052 5.39701 7.70148 5.49998 7.70148C5.60295 7.70148 5.70166 7.6604 5.77441 7.58753Z" fill="black" />
-  </g>
-  <defs>
-    <clipPath id="clip0_518_1553">
-      <rect width="10" height="10" fill="white" transform="translate(10.5) rotate(90)" />
-    </clipPath>
-  </defs>
-</svg></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="header_right">
-                <svg width="23" height="24" viewBox="0 0 23 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <path d="M9.70929 1.08594C14.7394 1.08604 18.8353 5.17729 18.8353 10.2119C18.8352 12.4494 18.023 14.4931 16.6868 16.0811L22.1859 21.5752L22.2405 21.6348C22.4926 21.9434 22.4739 22.3965 22.1859 22.6846C22.0326 22.8377 21.8329 22.915 21.6292 22.915C21.4255 22.915 21.2258 22.8378 21.0726 22.6846L15.5784 17.1904C13.9902 18.5264 11.9423 19.3378 9.70929 19.3379C4.6792 19.3379 0.583417 15.2465 0.583313 10.2119C0.583313 5.17723 4.67913 1.08594 9.70929 1.08594ZM9.70929 2.65625C5.54488 2.65625 2.15363 6.0475 2.15363 10.2119C2.15373 14.3762 5.54494 17.7676 9.70929 17.7676C13.8736 17.7675 17.2648 14.3762 17.265 10.2119C17.265 6.04329 13.8737 2.65635 9.70929 2.65625Z" fill="black" stroke="black" stroke-width="0.5" />
-</svg>
-<select name="" id="">
-    <option value="ru">RU</option>
-    <option value="uzb">UZB</option>
-    <option value="eng">ENG</option>
-</select>
- <img id="bars" src="./img/bars.svg" alt="">
-<div class="header_right_phone">
-    <p>Наши номера</p>
-    <div class="header_right_phone_bottom">
-        <i class="fa-solid fa-phone" style="color: #FFD43B;"></i>
-        <a href="tel">+38 (067) 822-85-58</a><svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <path d="M6.3293 7.10192L11.8643 1.55156C12.0455 1.36971 12.0452 1.07529 11.8634 0.893744C11.6815 0.712339 11.3869 0.712807 11.2055 0.894682L5.99998 6.11466L0.794441 0.894494C0.613035 0.712643 0.318638 0.712174 0.136764 0.893556C0.0455923 0.984564 6.6606e-06 1.10379 6.65539e-06 1.22302C6.65019e-06 1.34194 0.0452871 1.46069 0.135826 1.55154L5.67069 7.10192C5.75783 7.1895 5.87642 7.23865 5.99998 7.23865C6.12354 7.23865 6.242 7.18936 6.3293 7.10192Z" fill="black" />
-</svg>
-    </div>
-</div>
-            </div>
+      <div class="container">
+        <div class="header_left">
+          <img src="./img/logo.svg" alt="" />
         </div>
+        <div class="header_center">
+          <div class="header_center_top">
+            <ul>
+              <li>
+                <a href="#">О компании</a
+                ><svg
+                  width="11"
+                  height="10"
+                  viewBox="0 0 11 10"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g clip-path="url(#clip0_518_1553)">
+                    <path
+                      d="M5.77441 7.58753L10.3869 2.96224C10.538 2.8107 10.5377 2.56535 10.3861 2.41406C10.2346 2.26289 9.98911 2.26328 9.83795 2.41484L5.49998 6.76482L1.16203 2.41468C1.01086 2.26314 0.765529 2.26275 0.613967 2.4139C0.537991 2.48974 0.500002 2.5891 0.500002 2.68845C0.500002 2.78755 0.537737 2.88652 0.613186 2.96222L5.22557 7.58753C5.29819 7.66052 5.39701 7.70148 5.49998 7.70148C5.60295 7.70148 5.70166 7.6604 5.77441 7.58753Z"
+                      fill="black"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_518_1553">
+                      <rect
+                        width="10"
+                        height="10"
+                        fill="white"
+                        transform="translate(10.5) rotate(90)"
+                      />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </li>
+              <li>
+                <a href="#">Обьекты</a
+                ><svg
+                  width="11"
+                  height="10"
+                  viewBox="0 0 11 10"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g clip-path="url(#clip0_518_1553)">
+                    <path
+                      d="M5.77441 7.58753L10.3869 2.96224C10.538 2.8107 10.5377 2.56535 10.3861 2.41406C10.2346 2.26289 9.98911 2.26328 9.83795 2.41484L5.49998 6.76482L1.16203 2.41468C1.01086 2.26314 0.765529 2.26275 0.613967 2.4139C0.537991 2.48974 0.500002 2.5891 0.500002 2.68845C0.500002 2.78755 0.537737 2.88652 0.613186 2.96222L5.22557 7.58753C5.29819 7.66052 5.39701 7.70148 5.49998 7.70148C5.60295 7.70148 5.70166 7.6604 5.77441 7.58753Z"
+                      fill="black"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_518_1553">
+                      <rect
+                        width="10"
+                        height="10"
+                        fill="white"
+                        transform="translate(10.5) rotate(90)"
+                      />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </li>
+              <li>
+                <a href="#">Пресс-центр</a
+                ><svg
+                  width="11"
+                  height="10"
+                  viewBox="0 0 11 10"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g clip-path="url(#clip0_518_1553)">
+                    <path
+                      d="M5.77441 7.58753L10.3869 2.96224C10.538 2.8107 10.5377 2.56535 10.3861 2.41406C10.2346 2.26289 9.98911 2.26328 9.83795 2.41484L5.49998 6.76482L1.16203 2.41468C1.01086 2.26314 0.765529 2.26275 0.613967 2.4139C0.537991 2.48974 0.500002 2.5891 0.500002 2.68845C0.500002 2.78755 0.537737 2.88652 0.613186 2.96222L5.22557 7.58753C5.29819 7.66052 5.39701 7.70148 5.49998 7.70148C5.60295 7.70148 5.70166 7.6604 5.77441 7.58753Z"
+                      fill="black"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_518_1553">
+                      <rect
+                        width="10"
+                        height="10"
+                        fill="white"
+                        transform="translate(10.5) rotate(90)"
+                      />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </li>
+              <li>
+                <a href="#">Видео</a
+                ><svg
+                  width="11"
+                  height="10"
+                  viewBox="0 0 11 10"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g clip-path="url(#clip0_518_1553)">
+                    <path
+                      d="M5.77441 7.58753L10.3869 2.96224C10.538 2.8107 10.5377 2.56535 10.3861 2.41406C10.2346 2.26289 9.98911 2.26328 9.83795 2.41484L5.49998 6.76482L1.16203 2.41468C1.01086 2.26314 0.765529 2.26275 0.613967 2.4139C0.537991 2.48974 0.500002 2.5891 0.500002 2.68845C0.500002 2.78755 0.537737 2.88652 0.613186 2.96222L5.22557 7.58753C5.29819 7.66052 5.39701 7.70148 5.49998 7.70148C5.60295 7.70148 5.70166 7.6604 5.77441 7.58753Z"
+                      fill="black"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_518_1553">
+                      <rect
+                        width="10"
+                        height="10"
+                        fill="white"
+                        transform="translate(10.5) rotate(90)"
+                      />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </li>
+              <li>
+                <a href="tel">Контакты</a
+                ><svg
+                  width="11"
+                  height="10"
+                  viewBox="0 0 11 10"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g clip-path="url(#clip0_518_1553)">
+                    <path
+                      d="M5.77441 7.58753L10.3869 2.96224C10.538 2.8107 10.5377 2.56535 10.3861 2.41406C10.2346 2.26289 9.98911 2.26328 9.83795 2.41484L5.49998 6.76482L1.16203 2.41468C1.01086 2.26314 0.765529 2.26275 0.613967 2.4139C0.537991 2.48974 0.500002 2.5891 0.500002 2.68845C0.500002 2.78755 0.537737 2.88652 0.613186 2.96222L5.22557 7.58753C5.29819 7.66052 5.39701 7.70148 5.49998 7.70148C5.60295 7.70148 5.70166 7.6604 5.77441 7.58753Z"
+                      fill="black"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_518_1553">
+                      <rect
+                        width="10"
+                        height="10"
+                        fill="white"
+                        transform="translate(10.5) rotate(90)"
+                      />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </li>
+            </ul>
+          </div>
+          <div class="header_center_bottom">
+            <ul>
+              <li>
+                <a href="#">Комплексные решения</a
+                ><svg
+                  width="10"
+                  height="6"
+                  viewBox="0 0 10 6"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M5.27441 5.58753L9.88692 0.962239C10.038 0.810697 10.0377 0.565346 9.88614 0.414058C9.73459 0.262886 9.48911 0.263277 9.33795 0.414839L4.99998 4.76482L0.662031 0.414682C0.51086 0.26314 0.265529 0.262749 0.113967 0.413901C0.0379906 0.48974 1.89475e-06 0.589096 1.8904e-06 0.688451C1.88607e-06 0.787552 0.0377369 0.886516 0.113186 0.962219L4.72557 5.58753C4.79819 5.66052 4.89701 5.70148 4.99998 5.70148C5.10295 5.70148 5.20166 5.6604 5.27441 5.58753Z"
+                    fill="black"
+                  />
+                </svg>
+              </li>
+              <li>
+                <a href="#">Наше оборудование</a
+                ><svg
+                  width="11"
+                  height="10"
+                  viewBox="0 0 11 10"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g clip-path="url(#clip0_518_1553)">
+                    <path
+                      d="M5.77441 7.58753L10.3869 2.96224C10.538 2.8107 10.5377 2.56535 10.3861 2.41406C10.2346 2.26289 9.98911 2.26328 9.83795 2.41484L5.49998 6.76482L1.16203 2.41468C1.01086 2.26314 0.765529 2.26275 0.613967 2.4139C0.537991 2.48974 0.500002 2.5891 0.500002 2.68845C0.500002 2.78755 0.537737 2.88652 0.613186 2.96222L5.22557 7.58753C5.29819 7.66052 5.39701 7.70148 5.49998 7.70148C5.60295 7.70148 5.70166 7.6604 5.77441 7.58753Z"
+                      fill="black"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_518_1553">
+                      <rect
+                        width="10"
+                        height="10"
+                        fill="white"
+                        transform="translate(10.5) rotate(90)"
+                      />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </li>
+              <li>
+                <a href="#">Оснащение лабораторий</a
+                ><svg
+                  width="11"
+                  height="10"
+                  viewBox="0 0 11 10"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g clip-path="url(#clip0_518_1553)">
+                    <path
+                      d="M5.77441 7.58753L10.3869 2.96224C10.538 2.8107 10.5377 2.56535 10.3861 2.41406C10.2346 2.26289 9.98911 2.26328 9.83795 2.41484L5.49998 6.76482L1.16203 2.41468C1.01086 2.26314 0.765529 2.26275 0.613967 2.4139C0.537991 2.48974 0.500002 2.5891 0.500002 2.68845C0.500002 2.78755 0.537737 2.88652 0.613186 2.96222L5.22557 7.58753C5.29819 7.66052 5.39701 7.70148 5.49998 7.70148C5.60295 7.70148 5.70166 7.6604 5.77441 7.58753Z"
+                      fill="black"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_518_1553">
+                      <rect
+                        width="10"
+                        height="10"
+                        fill="white"
+                        transform="translate(10.5) rotate(90)"
+                      />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </li>
+              <li>
+                <a href="#">Услуги компании</a
+                ><svg
+                  width="11"
+                  height="10"
+                  viewBox="0 0 11 10"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g clip-path="url(#clip0_518_1553)">
+                    <path
+                      d="M5.77441 7.58753L10.3869 2.96224C10.538 2.8107 10.5377 2.56535 10.3861 2.41406C10.2346 2.26289 9.98911 2.26328 9.83795 2.41484L5.49998 6.76482L1.16203 2.41468C1.01086 2.26314 0.765529 2.26275 0.613967 2.4139C0.537991 2.48974 0.500002 2.5891 0.500002 2.68845C0.500002 2.78755 0.537737 2.88652 0.613186 2.96222L5.22557 7.58753C5.29819 7.66052 5.39701 7.70148 5.49998 7.70148C5.60295 7.70148 5.70166 7.6604 5.77441 7.58753Z"
+                      fill="black"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_518_1553">
+                      <rect
+                        width="10"
+                        height="10"
+                        fill="white"
+                        transform="translate(10.5) rotate(90)"
+                      />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="header_right">
+          <svg
+            width="23"
+            height="24"
+            viewBox="0 0 23 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M9.70929 1.08594C14.7394 1.08604 18.8353 5.17729 18.8353 10.2119C18.8352 12.4494 18.023 14.4931 16.6868 16.0811L22.1859 21.5752L22.2405 21.6348C22.4926 21.9434 22.4739 22.3965 22.1859 22.6846C22.0326 22.8377 21.8329 22.915 21.6292 22.915C21.4255 22.915 21.2258 22.8378 21.0726 22.6846L15.5784 17.1904C13.9902 18.5264 11.9423 19.3378 9.70929 19.3379C4.6792 19.3379 0.583417 15.2465 0.583313 10.2119C0.583313 5.17723 4.67913 1.08594 9.70929 1.08594ZM9.70929 2.65625C5.54488 2.65625 2.15363 6.0475 2.15363 10.2119C2.15373 14.3762 5.54494 17.7676 9.70929 17.7676C13.8736 17.7675 17.2648 14.3762 17.265 10.2119C17.265 6.04329 13.8737 2.65635 9.70929 2.65625Z"
+              fill="black"
+              stroke="black"
+              stroke-width="0.5"
+            />
+          </svg>
+          <select name="" id="">
+            <option value="ru">RU</option>
+            <option value="uzb">UZB</option>
+            <option value="eng">ENG</option>
+          </select>
+          <img id="bars" src="./img/bars.svg" alt="" />
+          <div class="header_right_phone">
+            <p>Наши номера</p>
+            <div class="header_right_phone_bottom">
+              <i class="fa-solid fa-phone" style="color: #ffd43b"></i>
+              <a href="tel">+38 (067) 822-85-58</a
+              ><svg
+                width="12"
+                height="8"
+                viewBox="0 0 12 8"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M6.3293 7.10192L11.8643 1.55156C12.0455 1.36971 12.0452 1.07529 11.8634 0.893744C11.6815 0.712339 11.3869 0.712807 11.2055 0.894682L5.99998 6.11466L0.794441 0.894494C0.613035 0.712643 0.318638 0.712174 0.136764 0.893556C0.0455923 0.984564 6.6606e-06 1.10379 6.65539e-06 1.22302C6.65019e-06 1.34194 0.0452871 1.46069 0.135826 1.55154L5.67069 7.10192C5.75783 7.1895 5.87642 7.23865 5.99998 7.23865C6.12354 7.23865 6.242 7.18936 6.3293 7.10192Z"
+                  fill="black"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
     </header>
 
     <main class="showcase">
-        <div class="container">
-            <div class="showcase_all">
-                <div class="showcase_left">
-                    <h2>Соцсети</h2>
-                    <img src="./img/line.svg" alt="">
-                    <ul>
-                        <li><a href="#"><img src="./img/in.svg" alt=""></a></li>
-                        <li><a href="#"><img src="./img/yt.svg" alt=""></a></li>
-                        <li><a href="#"><img src="./img/fb.svg" alt=""></a></li>
-                    </ul>
-                </div>
-                <div class="showcase_center">
-<h1>ТЕХНОЛОГИИ
-И ОБОРУДОВАНИЕ
-</h1>
-<p>для очистки, переработки <br>
-и контроля качества зерна
-</p>
-<button>Оставить заявку</button>
-                </div>
-                <div class="showcase_right">
-                    <img src="./img/showcase.svg" alt="">
-                </div>
-            </div>
+      <div class="container">
+        <div class="showcase_all">
+          <div class="showcase_left">
+            <h2>Соцсети</h2>
+            <img src="./img/line.svg" alt="" />
+            <ul>
+              <li>
+                <a href="#"><img src="./img/in.svg" alt="" /></a>
+              </li>
+              <li>
+                <a href="#"><img src="./img/yt.svg" alt="" /></a>
+              </li>
+              <li>
+                <a href="#"><img src="./img/fb.svg" alt="" /></a>
+              </li>
+            </ul>
+          </div>
+          <div class="showcase_center">
+            <h1>ТЕХНОЛОГИИ И ОБОРУДОВАНИЕ</h1>
+            <p>
+              для очистки, переработки <br />
+              и контроля качества зерна
+            </p>
+            <button>Оставить заявку</button>
+          </div>
+          <div class="showcase_right">
+            <img src="./img/showcase.svg" alt="" />
+          </div>
         </div>
+      </div>
     </main>
-    
-</body>
+
+    <section class="section1">
+      <div class="container">
+        <h1 class="title"><span class="bold">Н</span>аше оборудование</h1>
+        <div class="boxes">
+          <div class="box1">
+            <div class="box_items">
+            <div class="box_left">
+              <img src="./img/leafs.svg" alt="" />
+              <p>
+                Зерноочистительное <br />
+                оборудование
+              </p>
+            </div>
+            <div class="box_right">
+                <img src="./img/box1.svg" alt="">
+          
+            </div>
+            </div>
+          </div>
+
+          <div class="box2">
+            <div class="box_items">
+            <div class="box_left">
+              <img src="./img/shina.svg" alt="" />
+              <p>
+                Оборудование для <br> производства круп
+              </p>
+            </div>
+            <div class="box_right">
+                <img src="./img/box2.svg" alt="">
+            </div>
+            </div>
+          </div>
+
+<div class="box3">
+            <div class="box_items">
+            <div class="box_left">
+              <img src="./img/colba.svg" alt="" />
+              <p>
+               Лабораторное <br> оборудование
+              </p>
+            </div>
+            <div class="box_right">
+                <img src="./img/box3.svg" alt="">
+            </div>
+            </div>
+          </div>
+
+<div class="box4">
+            <div class="box_items">
+            <div class="box_left">
+              <img src="./img/flour.svg" alt="" />
+              <p>
+               Оборудование для <br> производства муки
+              </p>
+            </div>
+            <div class="box_right">
+                <img src="./img/box4.svg" alt="">
+            </div>
+            </div>
+          </div>
+
+          <div class="box5">
+            <div class="box_items">
+            <div class="box_left">
+              <img src="./img/boil.svg" alt="" />
+              <p>
+              Транспортное <br> и аспирационное <br> оборудование
+              </p>
+            </div>
+            <div class="box_right">
+                <img src="./img/box5.svg" alt="">
+            </div>
+            </div>
+          </div>
+
+          <div class="box6">
+            <div class="box_items">
+            <div class="box_left">
+              <img src="./img/meshok.svg" alt="" />
+              <p>
+              Самотечное <br> оборудование
+              </p>
+            </div>
+            <div class="box_right">
+                <img src="./img/box6.svg" alt="">
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
