@@ -1,0 +1,36 @@
+@use"./extend" as *;
+.partners{
+    .partners_box{
+        padding: 50px;
+        .title{
+            padding: 30px 10px;
+        }
+    width: 100%;
+        box-shadow: 0 7px 40px 0 rgba(0, 0, 0, 0.03);
+background: #fff;
+
+    }
+    .logos{
+      @extend .flex;
+      justify-content: space-between;
+      gap: 20px;
+      overflow-x: scroll;
+        }
+    }
+@media(max-width:640px){
+  .partners h1{
+    font-size: 24px;
+  }
+  .partners h1 .bold{
+    font-size: 24px;
+  }
+}
+@media (max-width:445px){
+
+  .partners h1{
+    font-size: 18px;
+  }
+   .partners h1 .bold{
+    font-size: 18px;
+  }
+}

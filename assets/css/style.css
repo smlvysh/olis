@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;800;900&display=swap);
-.flex, .about .about_top, .about_bottom, .section4 .rates, .section3 .offers > div, .section2 .card, .box_items, .box_items .box_left, .showcase .showcase_all, .showcase .showcase_all .showcase_left, .header > div, .header .header_center ul li, .header .header_center_top ul, .header .header_center_top, .header .header_center_bottom ul, .header .header_center_bottom ul .header_right, .header_right {
+.flex, .partners .logos, .about .about_top, .about_bottom, .section4 .rates, .section3 .offers > div, .section2 .card, .box_items, .box_items .box_left, .showcase .showcase_all, .showcase .showcase_all .showcase_left, .header > div, .header .header_center ul li, .header .header_center_top ul, .header .header_center_top, .header .header_center_bottom ul, .header .header_center_bottom ul .header_right, .header_right {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -636,6 +636,37 @@ img {
   .about_top .about_bottom_left {
     width: 100%;
     height: auto;
+  }
+}
+.partners .partners_box {
+  padding: 50px;
+  width: 100%;
+  box-shadow: 0 7px 40px 0 rgba(0, 0, 0, 0.03);
+  background: #fff;
+}
+.partners .partners_box .title {
+  padding: 30px 10px;
+}
+.partners .logos {
+  justify-content: space-between;
+  gap: 20px;
+  overflow-x: scroll;
+}
+
+@media (max-width: 640px) {
+  .partners h1 {
+    font-size: 24px;
+  }
+  .partners h1 .bold {
+    font-size: 24px;
+  }
+}
+@media (max-width: 445px) {
+  .partners h1 {
+    font-size: 18px;
+  }
+  .partners h1 .bold {
+    font-size: 18px;
   }
 }
 
