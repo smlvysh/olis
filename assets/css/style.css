@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;800;900&display=swap);
-.flex, .form .form_all, .form .form_all .form_right, .form .form_all .form_right .inputs, .partners .logos, .about .about_top, .about_bottom, .section4 .rates, .section3 .offers > div, .section2 .card, .box_items, .box_items .box_left, .showcase .showcase_all, .showcase .showcase_all .showcase_left, .header > div, .header .header_center ul li, .header .header_center_top ul, .header .header_center_top, .header .header_center_bottom ul, .header .header_center_bottom ul .header_right, .header_right {
+.flex, .footer .footer_all, .footer .footer_all .footer2, .form .form_all, .form .form_all .form_right, .form .form_all .form_right .inputs, .partners .logos, .about .about_top, .about_bottom, .section4 .rates, .section3 .offers > div, .section2 .card, .box_items, .box_items .box_left, .showcase .showcase_all, .showcase .showcase_all .showcase_left, .header > div, .header .header_center ul li, .header .header_center_top ul, .header .header_center_top, .header .header_center_bottom ul, .header .header_center_bottom ul .header_right, .header_right {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -774,6 +774,85 @@ img {
   }
   .form .form_right h2 {
     font-size: 10px;
+  }
+}
+.footer {
+  margin: 50px 0;
+}
+.footer .footer_all {
+  justify-content: space-between;
+}
+.footer .footer_all .footer2 {
+  flex-direction: column;
+  gap: 20px;
+}
+.footer .footer_all .footer2 p {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.257;
+  color: #000;
+}
+
+.footer1 p {
+  padding: 30px 0;
+  opacity: 0.5;
+  font-weight: 400;
+  font-size: 14px;
+  color: #000;
+}
+.footer1 a {
+  font-weight: 400;
+  font-size: 16px;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #fead04;
+}
+
+.footer3 ul li {
+  padding: 5px 0;
+}
+.footer3 ul li a {
+  font-weight: 400;
+  font-size: 16px;
+  color: #000;
+}
+
+.footer4 ul li {
+  padding: 5px 0;
+}
+.footer4 ul li a {
+  font-weight: 400;
+  font-size: 16px;
+  color: #000;
+}
+
+.footer5 ul li {
+  padding: 5px 0;
+}
+.footer5 ul li a {
+  font-weight: 400;
+  font-size: 16px;
+  color: #000;
+}
+
+.footer6 ul li {
+  padding: 5px 0;
+}
+.footer6 ul li a {
+  font-weight: 400;
+  font-size: 16px;
+  color: #000;
+}
+
+.footer6 img:hover {
+  opacity: 50%;
+}
+
+@media (max-width: 1344px) {
+  .footer_all {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
   }
 }
 
